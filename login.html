@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+    </style>
+</head>
+<body>
+   <h1>Create An Account</h1>
+    <legend>
+        <ul>
+        <li>
+        <label for="first-name">First name</label>
+        <input type="text" id="first-name" placeholder="First name" required>
+        </li>
+
+        <li> <label for="last-name">Last name</label>
+        <input type="text"  id="last-name" placeholder="Last-name" required></li>
+
+        <li> <label for="email">Email</label>
+        <input type="email" id="email" placeholder="@" required></li>
+
+        <li><label for="id">Username</label>
+        <input type="username" id="username" placeholder="Username" required></li>
+
+        <li>
+  <label for="password">Password</label>
+  <input type="password" id="password" placeholder="Password" required minlength="10">
+</li>
+
+        <li><label for="date">Birthdate</label>
+        <input type="date" required></li>
+
+        <li>
+          <label for="happy">How happy are you?</label>
+          <input type="range" id="happy" min="0" max="10" step="1" value="5" required>
+        </li>
+        <li><label for="color">What is your fav.color?</label>
+        <input type="color"></li>
+        <li>
+        <input type="button" value="Create Account"></li>
+
+       
+     
+       
+        </ul>
+    </legend>
+</body>
+</html>

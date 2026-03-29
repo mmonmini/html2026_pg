@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bitcount+Single:slnt,wght,ELSH@-4,100..900,82.2&family=Gowun+Batang&family=Gugi&family=Merienda:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zalando+Sans+Expanded&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "variables.css";
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    
+}
+
+.welcome-header {
+    margin: 90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+.welcome-header__title {
+     margin-bottom: 40px;
+     font-size: 25px;
+}
+.welcome-header__text {
+    width: 60%;
+    opacity: 0.7;
+}
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+#login-form input {
+    border: none;
+    padding: 15px 0px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+    transition: border-color .3s ease-in-out;
+}
+
+#login-form input::placeholder {
+    border-color: rgba(0, 0, 0, 0.2);
+}
+#login-form input:focus {
+    border-bottom-color: var(--yellow);
+    outline: none;
+}
