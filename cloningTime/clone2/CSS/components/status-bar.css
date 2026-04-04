@@ -5,8 +5,9 @@ width: 100%;
 
 display: flex; 
 justify-content: center;  
-padding: 15px 13px;
+padding: 20px 33px;
 box-sizing: border-box;
+
 }
 .status-bar__column {
     width: 33%;
